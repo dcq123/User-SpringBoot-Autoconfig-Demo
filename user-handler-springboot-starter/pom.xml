@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.github.qing</groupId>
+    <artifactId>user-handler-springboot-starter</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!--  引入User Handler Module模块的具体实现-->
+        <dependency>
+            <groupId>cn.github.qing</groupId>
+            <artifactId>user-handler-module</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--   引入User handler autoconfiguration自动配置     -->
+        <dependency>
+            <groupId>cn.github.qing</groupId>
+            <artifactId>user-handler-autoconfiguration</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

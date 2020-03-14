@@ -1,0 +1,4 @@
+META-INF/spring-autoconfigure-metadata.properties
+META-INF/spring-configuration-metadata.json
+cn/github/qing/UserAutoConfiguration.class
+cn/github/qing/UserProperties.class
